@@ -66,7 +66,7 @@
         <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fa-brands fa-google-play"></i>
           Download</button>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 text-center">
         <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
       </div>
     </div>
@@ -106,7 +106,8 @@
 
     <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <!-- <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
       </div>
@@ -123,11 +124,13 @@
           <em>Beverly, Illinois</em>
         </div>
       </div>
-      <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+      <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#testimonial-carousel"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+      <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#testimonial-carousel"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
     </div>
@@ -148,47 +151,65 @@
   <!-- Pricing -->
 
   <section id="pricing">
-
     <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <p class="mt-4">Simple and affordable price plans for your and your dog.</p>
 
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 pricing-row mt-4">
+      <div class="col mb-3">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <div class="card-title pricing-card-title">
+              <h2>Free</h2>
+            </div>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <button class="pricing-btn btn btn-outline-dark btn-lg" type="button">Sign Up</button>
+        </div>
+      </div>
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="col mb-3">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <div class="card-title pricing-card-title">
+              <h2>$49 <small class="text-muted">/ mo</small></h2>
+            </div>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <button class="pricing-btn btn btn-dark btn-lg" type="button">Sign Up</button>
+        </div>
+      </div>
 
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
+      <div class="col mb-3 col-md-12">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-title pricing-card-title">
+            <h2>$99 <small class="text-muted">/ mo</small></h2>
+          </div>
+          <div class="card-bdy">
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+          </div>
+          <button class="pricing-btn btn btn-dark btn-lg" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
   </section>
 
 
-  <!-- Call to Action -->
-
-  <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
-  </section>
 
 
   <!-- Footer -->

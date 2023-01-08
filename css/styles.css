@@ -105,9 +105,24 @@ h3 {
 }
 
 .carousel-control-prev {
-    left: -8%;
+    left: -10%;
 }
 
 .carousel-control-next {
-    right: -8%;
+    right: -10%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-btn {
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.pricing-row {
+    margin-top: 5%;
 }
