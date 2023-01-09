@@ -28,7 +28,7 @@ h3 {
     font-weight: bold;
 }
 
-.title-container {
+.container-fluid {
     padding-bottom: 7%;
 }
 
@@ -52,7 +52,7 @@ h3 {
 }
 
 .download-btn {
-    margin: 5% 3% 5% 0;
+    margin: 4% 1.5% 4% 1.5%;
 }
 
 .title-img {
@@ -65,8 +65,6 @@ h3 {
 
 .img-container {
     position: relative;
-    height: 20rem;
-    /* padding-top: 5%; */
 }
 
 #features {
@@ -78,7 +76,7 @@ h3 {
 }
 
 .feature-box {
-    padding: 3% 3% 3% 3%;
+    padding: 3%;
 }
 
 .feature-desc {
@@ -142,4 +140,47 @@ h3 {
 
 .pricing-row {
     margin-top: 5%;
+}
+
+@media (max-width: 990px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+    
+    .title-container {
+        text-align: center;
+    }    
+}
+
+@media (max-width: 576px) {
+    .img-container {
+        padding-top: 4%;
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.cta-heading {
+    color: white;
+    size: 2rem;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    padding: 4%;
+}
+
+#footer>p {
+    padding-top: 1rem;
+}
+
+.logo {
+    padding: 1%;
 }

@@ -17,8 +17,8 @@
   <section id="title">
 
     <!-- Nav Bar -->
-    <div class="title-container">
-      <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <a href="" class="navbar-brand">
           tindog
         </a>
@@ -28,19 +28,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="" class="nav-link active">
-                Contact
-              </a>
-            </li>
             <li class="nav-item" href="">
-              <a href="" class="nav-link">
+              <a href="#pricing" class="nav-link">
                 Pricing
               </a>
             </li>
             <li class="nav-item" href="">
-              <a href="" class="nav-link">
+              <a href="#cta" class="nav-link">
                 Download
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">
+                Contact
               </a>
             </li>
             <li class="nav-item dropdown">
@@ -50,16 +50,16 @@
                 More
               </a>
               <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-item">First</a></li>
-                <li><a href="#" class="dropdown-item">Second</a></li>
-                <li><a href="#" class="dropdown-item">Third</a></li>
+                <li><a href="#features" class="dropdown-item">Features</a></li>
+                <li><a href="#testimonials" class="dropdown-item">About us</a></li>
+                <!-- <li><a href="#" class="dropdown-item">Third</a></li> -->
               </ul>
             </li>
           </ul>
         </div>
       </nav>
       <!-- Title -->
-      <div class="row">
+      <div class="row title-container">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
           <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple"></i>
@@ -68,7 +68,7 @@
               class="fa-brands fa-google-play"></i>
             Download</button>
         </div>
-        <div class="col-md-6 text-center img-container pt-lg-0 pt-sm-5">
+        <div class="col-lg-6 text-center img-container pt-lg-0 pt-sm-5">
           <img class="title-img" src="images/iphone6.png" alt="iphone-mockup">
         </div>
       </div>
@@ -211,14 +211,24 @@
     </div>
   </section>
 
+  <!-- Call to Action -->
 
+  <section id="cta">
 
+    <h2 class="cta-heading">Find the True Love of Your Dog's Life Today.</h2>
+    <button type="button" class="btn btn-lg btn-dark download-btn"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-light download-btn"><i class="fa-brands fa-google-play"></i>
+      Download</button>
+  </section>
 
   <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright TinDog</p>
+    <div class="social-logos">
+      <i class="fa-brands fa-twitter logo"></i><i class="fa-brands fa-facebook logo"></i><i
+        class="fa-brands fa-instagram logo"></i><i class="fa-solid fa-envelope logo"></i>
+    </div>
+    <p><small class="text-muted">© Copyright TinDog</small></p>
 
   </footer>
 
